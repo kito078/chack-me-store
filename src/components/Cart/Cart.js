@@ -9,6 +9,7 @@ import CartItem from "./CartItem";
 
 function Cart(props) {
   const cart = useContext(CartContext);
+  //const productQuantity = cart.getProductQuantity(id);
 
   const productsCount = cart.items.reduce(
     (sum, product) => sum + product.quantity,
@@ -30,7 +31,9 @@ function Cart(props) {
                 ></CartItem>
               ))}
               <h1>Total: {cart.getTotalCost().toFixed(2)}</h1>
-              <Button variant="success">Purchase items!</Button>
+              <Button className="news-btn" variant="success">
+                Order Now!
+              </Button>
             </>
           ) : (
             <h1>There are no items in your cart!</h1>
