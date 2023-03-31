@@ -41,13 +41,13 @@ function Banner() {
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start mt-5">
               <div>
                 <Button
-                  className="btn-button rounded-pill px-5 py-2"
+                  className="btn-button rounded-pill px-5 py-2 mb-5 mb-lg-0"
                   color="primary"
                 >
                   About Me
                 </Button>
               </div>
-              <div className="banner__icon d-flex">
+              <div className="banner__icon d-flex mb-5 mb-lg-0">
                 <div className="b-icon">
                   <FaFacebookF />
                 </div>
