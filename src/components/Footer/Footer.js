@@ -15,10 +15,10 @@ function Footer() {
   return (
     <div className="footer p-4">
       <div className="container">
-        <Row className="align-items-center justify-content-center mx-auto  ">
-          <Col lg className="footer__header">
+        <Row className="align-items-center justify-content-center  text-lg-start  mx-auto  ">
+          <Col lg className="footer__header ">
             <h5 className="mb-4 d-flex">
-              <span className="footer-brand me-1">
+              <span className="footer-brand me-1 ">
                 <BsFillMoonStarsFill />
               </span>
               <span className="brand-chake mt-3">Chake</span>
@@ -53,7 +53,7 @@ function Footer() {
               </span>
             </div>
           </Col>
-          <Col lg className="footer__body text-start">
+          <Col lg className="footer__body d-none d-lg-block text-lg-start">
             <h5>Devwaves</h5>
             {/* <Link to="https://www.npmjs.com/package/react-router-dom">
               facebook
@@ -64,15 +64,15 @@ function Footer() {
             <p>Team</p>
             <p>Contact</p>
           </Col>
-          <Col lg className="footer__body">
+          <Col lg className="footer__body d-none d-lg-block">
             <h5>Devwaves</h5>
             <p>Tutorial</p>
             <p>Streaming</p>
             <p>Teaching</p>
             <p>Tutorial</p>
           </Col>
-          <Col lg className="footer__body">
-            <h5>Contact Us</h5>
+          <Col lg className="footer__body mt-4 mt-lg-0">
+            <h5 className="mb-5 mb-lg-3">Contact Us</h5>
             <p>
               <ImLocation2 />
               <span className="ms-3">Johannesburg Beria Doris street n 21</span>

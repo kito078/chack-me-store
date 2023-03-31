@@ -61,10 +61,6 @@ function ContactForm() {
 
   const onSubmitHandler = (event) => {
     event.preventDefault();
-    if (!nameIsValid) {
-      setNameIsValid(false);
-      return;
-    }
 
     if (
       nameIsValid ||
@@ -80,7 +76,7 @@ function ContactForm() {
   };
 
   return (
-    <Form onSubmit={onSubmitHandler} className="contactForm  mt-lg-5">
+    <Form onSubmit={onSubmitHandler} className="contactForm pt-5 pt-lg-0 mt-5">
       <Row>
         <Col md={6}>
           <FormGroup>

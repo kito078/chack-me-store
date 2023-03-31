@@ -20,7 +20,7 @@ const contactItems = [
   {
     icon: <BsFillTelephoneFill />,
     title: "Phone",
-    desc: "+27 61 856 2010",
+    desc: "+27 61 856 2010...............",
   },
 ];
 

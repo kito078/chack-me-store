@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import "./Navbar.css";
 import { Button } from "reactstrap";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsCartPlusFill } from "react-icons/bs";
 import { CartContext } from "../../cart-context";
 
 export default function Navbar(props) {
@@ -63,7 +64,13 @@ export default function Navbar(props) {
             <a href="/contact">Contact</a>
           </li>
           <li>
-            <Button className="btn--nav" onClick={props.onShowCart}>
+            <Button
+              className="btn--nav mb-4 mb-md-0"
+              onClick={props.onShowCart}
+            >
+              <span className="pb-5">
+                <BsCartPlusFill />
+              </span>{" "}
               {productsCount} (items)
             </Button>
           </li>
