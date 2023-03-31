@@ -1,0 +1,53 @@
+:root {
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+
+.input{
+    padding: 1.5rem 3.5rem;
+    border-bottom: 1px solid #fff;
+    outline: 0;
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.7rem;
+    /* border-radius: 30px; */
+}
+
+.newsletterForm__group {
+    display: flex;
+    width: 250px;
+    border-bottom: 2px solid #fff;
+    /* border-radius: 30px; */
+}
+.newsletterForm__group .input{
+   border: 0;
+   flex-grow: 1;
+}
+
+.input::placeholder{
+    color: #fff !important;
+    font-size: 1.6rem !important;
+}
+
+.news-btn{
+    background:var(--color-secondary) ;
+    padding: 1rem 4.5rem;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    border-radius: var(--border-radius);
+    font-size: 1.6rem;
+    white-space: nowrap;
+}
+
+
+@media screen and (min-width: 992px){ 
+    .newsletterForm__group {
+        width: 400px;
+    }
+}

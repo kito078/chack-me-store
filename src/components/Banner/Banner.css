@@ -1,0 +1,128 @@
+
+:root {
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+
+.banner-container{
+    background: #f8f7f3;
+}
+.banner{
+    max-width: 1050px !important;
+    margin: auto;
+ 
+}
+
+img{
+    width: 100%;
+}
+
+
+.banner__header img{
+    max-width: 300px;
+    margin: auto;
+}
+
+.banner__icon{
+    display: none !important;
+}
+
+.one-icon,
+.two-icon,
+.three-icon{
+    display: none;
+}
+
+.banner__hello{
+    color: coral !important;
+    font-size: 2.1rem;
+}
+
+.banner__name{
+   font-weight: 600;
+   font-size: 3.5rem;
+}
+.banner__para{
+    font-size: 2rem;
+    margin-bottom: 2.6rem !important;
+}
+
+.banner-sci{
+    color: var(--color-primary) !important;
+    font-size: 2.1rem;
+}
+.banner-co{
+    color: var(--color-secondary) !important;
+}
+
+.btn-button{
+    font-size: 1.8rem !important;
+    padding-bottom: 1rem !important;
+    background: var(--color-primary) !important;
+    border: 1px solid colo !important;
+    transition: all 0.3s ease-in;
+}
+.btn-button:hover{
+    color: var(--color-primary) !important;
+    background: #fff !important;
+    border: 1px solid var(--color-primary) !important;
+}
+
+.banner__icon svg{
+    font-size: 1.2rem !important;
+}
+
+.b-icon{
+    margin-left: 1.5rem !important;
+}
+ @media screen and (min-width: 992px){ 
+    .banner__body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10rem !important;
+    }
+    .banner:nth-of-type(odd) .banner__header{
+        display: grid;
+        order: 2;
+    }
+    .banner__name{
+        font-size: 5rem;
+        font-weight: 600;
+     }
+     .banner__header{
+        position: relative;
+    }
+    
+    .one-icon{
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        font-size: 4.2rem;
+        color: var(--color-primary) !important;
+    }
+    .two-icon{
+        position: absolute;
+        top: 130px;
+        right: 80px;
+        font-size: 4.2rem;
+        color: var(--color-primary) !important;
+    }
+    .three-icon{
+        position: absolute;
+        bottom: 90px;
+        left: 90px;
+        font-size: 4.2rem;
+        color: var(--color-secondary) !important;
+    }
+        
+    .one-icon,
+    .two-icon,
+    .three-icon{
+        display: block;
+    }
+} 

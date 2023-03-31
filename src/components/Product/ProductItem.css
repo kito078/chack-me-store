@@ -1,0 +1,119 @@
+:root {
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+
+
+.productItem{
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+
+}
+.productItem__bage{
+    position: absolute;
+    background: coral;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    left: 20px;
+    top: 16px;
+}
+.productItem__body p{
+    font-size: 1.4rem;
+}
+
+.productItem__price{
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+}
+.price__main{
+    color: #252424bd !important;
+}
+.price__del{
+    color: #555 !important;
+}
+
+.productItem__star{
+    font-size: 1.6rem;
+    color: rgb(210, 186, 52);
+
+}
+
+.productItem__header{
+   background-color: #e7e7e7;
+   height: 260px;
+}
+.productItem__header img{
+    width: 230px !important;
+    margin: auto;
+    object-fit: contain !important;
+ 
+}
+
+/* 
+.productItem__header img{
+    width: 240px;
+    height: 200px !important;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 314px){ 
+    .productItem__header img{
+        width: 100px;
+    }
+}
+@media screen and (min-width: 354px){ 
+    .productItem__header img{
+        width: 120px;
+    }
+}
+@media screen and (min-width: 394px){ 
+    .productItem__header img{
+        width: 150px;
+    }
+}
+
+
+@media screen and (min-width: 430px){ 
+    .productItem__header img{
+        width: 150px;
+    }
+}
+@media screen and (min-width: 460px){ 
+  
+    .productItem__header img{
+        width: 170px;
+    }
+}
+@media screen and (min-width: 500px){ 
+   
+    .productItem__header img{
+        width: 180px;
+    }
+}
+@media screen and (min-width: 500px){ 
+  
+    .productItem__header img{
+        width: 180px;
+    }
+}
+@media screen and (min-width: 500px){ 
+   
+    .productItem__header img{
+        width: 220px;
+    }
+}
+ */

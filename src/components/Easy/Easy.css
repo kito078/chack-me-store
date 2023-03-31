@@ -1,0 +1,116 @@
+:root {
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+
+
+.easy{
+    background: var(--color-primary);
+ 
+}
+
+.easy__body {
+    max-width: 500px;
+    margin: auto;
+}
+.easy__body span{
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+}
+.easy__body span del{
+    font-size: 1.4rem;
+    font-weight: 400 !important;
+    color: #555 !important;
+}
+
+.easy__num{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(188, 182, 182);
+}
+.easy__content-two{
+    
+}
+.easy__content-two h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* .easy__header img{
+max-width: 400px;
+margin: auto;
+} */
+
+.easy__body h6{
+    font-size: 1.5rem !important;
+    color: #fff !important;
+}
+.easy__body h2{
+    font-size: 2.5rem !important;
+    color: #fff !important;
+}
+.easy__body h3{
+    font-size: 2.5rem !important;
+    color: #fff !important;
+}
+
+.easy__header{
+    position: relative;
+}
+
+.easy__sale{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   width: 70px;
+   height: 70px;
+   background: coral;
+   border-radius: 50%;
+   color: #fff;
+   top: 20px;
+   left: 40px;
+}
+
+.easy__sale h5{
+    position: absolute;
+    font-size: 1.7rem;
+    margin-top: 1.9rem;
+    margin-bottom: 0;
+    color: #fff;
+}
+.easy__sale p{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .easy__sale{
+        top: 70px;
+        left: 220px;
+     }
+}
+
+@media screen and (min-width: 992px) {
+    .easy__body h2{
+        font-size: 2.2rem !important;
+        font-weight: 600 !important;
+    }
+    .easy__body h3{
+        font-size: 3.5rem !important;
+    }
+
+    .easy__sale{
+       top: 50px;
+       left: 110px;
+    }
+  
+    }

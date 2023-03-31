@@ -1,0 +1,144 @@
+.bann{
+  margin-top: 15rem;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+
+.banner__head img{
+    max-width: 460px;
+    margin: auto;
+}
+
+.one-icon,
+.two-icon,
+.three-icon{
+    display: none;
+}
+
+.banner__hello{
+    color: #c026d3;
+    font-size: 2.1rem;
+}
+
+.banner__name-two{
+   font-weight: 600;
+   font-size: 3.4rem;
+}
+.banner__para{
+    font-size: 2rem;
+    margin-bottom: 2.6rem !important;
+}
+
+.banner-sci{
+    color: #8854f1;
+    font-size: 2.1rem;
+}
+.banner-co{
+    color: #c026d3;
+}
+
+.btn-button{
+    font-size: 1.8rem !important;
+    padding-bottom: 1rem !important;
+    background: #8854f1;
+    border: 1px solid #8854f1;
+    transition: all 0.3s ease-in;
+}
+.btn-button:hover{
+    color: #8854f1;
+    background: #fff;
+    border: 1px solid #8854f1;
+}
+
+.banner__icon svg{
+    font-size: 1.2rem !important;
+}
+
+.b-icon{
+    margin-left: 1.5rem !important;
+}
+ @media screen and (min-width: 992px){ 
+    .banner__head{
+        position: relative;
+    }
+    .masection__card{
+      position: absolute;
+     background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      padding: 2.7rem 2.5rem;
+      border-radius: 5px;
+      top: 0;
+    }
+    .masection__card h5, .masection__card-two h5{
+      font-size: 1.5rem;
+    }
+   
+    .masection__card-two{
+      position: absolute;
+     background-color: #fff;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2.7rem 2.5rem;
+      border-radius: 5px;
+      bottom: 60px;
+      right: 30px;
+    }
+    .count{
+        font-size: 2.2rem;
+        color: #8854f1;
+        font-weight: 700;
+    }
+    .count-two{
+        font-size: 2.2rem;
+        color: #c026d3;
+        font-weight: 700;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10rem !important;
+    }
+    .banner:nth-of-type(odd) .banner__header{
+        display: grid;
+        order: 2;
+    }
+    .banner__name-two{
+        font-size: 4rem;
+        font-weight: 600;
+     }
+     .banner__header{
+        position: relative;
+    }
+    
+    .one-icon{
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        font-size: 4.2rem;
+        color: #c026d3;
+    }
+    .two-icon{
+        position: absolute;
+        top: 130px;
+        right: 80px;
+        font-size: 4.2rem;
+        color: #8854f1;
+    }
+    .three-icon{
+        position: absolute;
+        bottom: 90px;
+        left: 90px;
+        font-size: 4.2rem;
+        color: #8854f1;
+    }
+        
+    .one-icon,
+    .two-icon,
+    .three-icon{
+        display: block;
+    }
+} 

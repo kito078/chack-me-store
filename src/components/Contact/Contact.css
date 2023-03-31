@@ -1,0 +1,32 @@
+.contact__adress{
+    max-width: 700px;
+    margin: auto;
+}
+.contact__address_head {
+    max-width: 300px;
+    margin: auto;
+}
+.contact__adress svg {
+    color: coral !important;
+    margin: auto;
+    font-size: 3rem;
+    transition: all 0.3s ease-in;
+}
+.contact__adress svg:hover {
+    font-size: 2rem;
+}
+.address--icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #dcd2ef;
+    background: rgb(241, 218, 209);
+}
+
+.address__content h5{
+    font-size: 2rem;
+    font-weight: 700;
+}
