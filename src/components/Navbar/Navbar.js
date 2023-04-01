@@ -18,7 +18,7 @@ export default function Navbar(props) {
   return (
     <div className="nav-container">
       <nav className="container navigation">
-        <a href="/" className="brand-name ms-5">
+        <a href="/" className="brand-name ms-5 ms-md-2">
           <h5 className="mb-4 d-flex">
             <span className="footer-brand me-1">
               <BsFillMoonStarsFill />
