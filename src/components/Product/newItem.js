@@ -1,7 +1,7 @@
-import ImageOne from "../../images/s3.jpg";
-import ImageTwo from "../../images/s4.jpg";
-import ImageThree from "../../images/s2.jpg";
-import ImageFour from "../../images/s1.jpg";
+import ImageOne from "../../images/a3.jpg";
+import ImageTwo from "../../images/a4.jpg";
+import ImageThree from "../../images/a2.jpg";
+import ImageFour from "../../images/a1.jpg";
 import ImageFive from "../../images/s5.jpg";
 
 import { AiTwotoneStar } from "react-icons/ai";
@@ -14,7 +14,7 @@ export const PRODUCTS = [
     title: "Dark Mouldin' Gel Wax With Coconut Oil 125Ml",
     description:
       "Firm Hold, Shine, Moisturizing & Conditioning. Also great for laying hairline",
-    img: ImageOne,
+    img: ImageFour,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
@@ -59,7 +59,7 @@ export const PRODUCTS = [
     title: "Lorem ipsum dolor",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea .",
-    img: ImageOne,
+    img: ImageFour,
     stars: <AiTwotoneStar />,
 
     bage: "NEW",
@@ -94,7 +94,7 @@ export const PRODUCTS = [
     title: "Rush Methylated Spirits - 750ml",
 
     description: "Twice distilled from Pinot Noir grape pomace..",
-    img: ImageOne,
+    img: ImageFour,
     stars: <AiTwotoneStar />,
     bage: "NEW",
   },
