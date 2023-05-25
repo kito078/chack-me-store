@@ -157,7 +157,7 @@ function ContactForm() {
         </p>
       </FormGroup>
 
-      <Button className="news-btn mt-5">Sign in</Button>
+      <Button className="news-btn mt-5">Send Now</Button>
     </Form>
   );
 }

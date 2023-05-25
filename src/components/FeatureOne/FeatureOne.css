@@ -4,7 +4,7 @@
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
   --color-accent: #ff3400;
-  --color-headings: #1b0760;
+  --color-headings: #454545;
   --color-body: #918ca4;
   --color-border: #ccc;
   --border-radius: 30px;
@@ -17,19 +17,36 @@
     margin-top: 5rem !important;
   }
   .feature__header{
-    color: var(--color-secondary) !important;
+    color: #a855f7;
+    font-size: 1.8rem !important;
   }
   
   .feature__service{
-    font-size: 2.3rem !important;
+    font-size: 3rem !important;
+    font-weight: bold !important;
   }
-  
+
+
+  @media  screen and (min-width: 768px) {
+    .feature__header{
+      color: #a855f7;
+      font-size: 2rem !important;
+    }
+    .feature__service{
+      color: #717070 !important;
+      font-weight: 900 !important;
+      font-size: 4rem !important;
+    }
+    .features p{
+      font-size: 2rem !important;
+    }
+  }
+
+
   @media  screen and (min-width: 992px) {
     .features{
         margin-top: 12rem !important;
     }
-    .feature__service{
-      font-size: 2.5rem !important;
-    }
+  
     
   }

@@ -1,23 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./BrandingItem.css";
 import { Button, Row, Col } from "reactstrap";
+import { Link } from "react-router-dom";
 
 function BrandingItem(props) {
   return (
-    <Col lg className="brandingItem ">
-      <div className="brandingItem__header">
-        <div className="brand-page ">
-          <div>
-            <h5>{props.brand}</h5>
+    <Link to="/blog" className="my-link">
+      <div lg className="brandingItem ">
+        <div className="brandingItem__header">
+          <div className="brand-page ">
+            <div>
+              <h5>{props.brand}</h5>
+            </div>
           </div>
+          <img src={props.img} alt="" />
         </div>
-        <img src={props.img} alt="" />
+        <div className="brandingItem__body">
+          <h3>{props.title}</h3>
+          <p>{props.desc}</p>
+        </div>
       </div>
-      <div className="brandingItem__body">
-        <h3>{props.title}</h3>
-        <p>{props.desc}</p>
-      </div>
-    </Col>
+    </Link>
   );
 }
 

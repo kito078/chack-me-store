@@ -9,10 +9,11 @@ import { FaInstagram } from "react-icons/fa";
 import { MdAddAPhoto } from "react-icons/md";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiPhotopea } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
-    <div className="mx-3">
+    <div className="mx-3 ">
       <Row className="banner-container pt-5">
         <Row className="banner align-items-center justify-content-center text-center text-lg-start">
           <Col lg className="banner__header">
@@ -29,10 +30,10 @@ function Banner() {
           </Col>
           <Col lg className="banner__content">
             <h5 className="banner__hello mt-5 ms-lg-2">Hello, I'm</h5>
-            <h1 className="banner__name py-2">Mechabe Kayembe</h1>
+            <h1 className="banner__name py-2"> Amelia Montgome</h1>
             <h5 className="banner__para my-4 ">
-              A <span className="banner-sci">science inventor</span> from JHB{" "}
-              <span className="banner-co">South Africa</span>
+              I <span className="banner-sci">sell and buy products</span> from
+              JHB <span className="banner-co">market place</span>
             </h5>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
@@ -40,12 +41,14 @@ function Banner() {
             </p>
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start mt-5">
               <div>
-                <Button
-                  className="btn-button rounded-pill px-5 py-2 mb-5 mb-lg-0"
-                  color="primary"
-                >
-                  About Me
-                </Button>
+                <Link to="/about">
+                  <Button
+                    className="btn-button rounded-pill px-5 py-2 mb-5 mb-lg-0"
+                    color="primary"
+                  >
+                    About Me
+                  </Button>
+                </Link>
               </div>
               <div className="banner__icon d-flex mb-5 mb-lg-0">
                 <div className="b-icon">

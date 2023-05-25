@@ -7,12 +7,12 @@
     --color-border: #ccc;
     --border-radius: 30px;
   }
-
+/* //#fed640 */
 .newsletter{
     display: flex;
     flex-direction: row;
     margin: 7rem 0;
-    background-color: var(--color-primary);
+    background-color: #a855f7;
     color: #fff !important;
     padding: 2rem ;
 }

@@ -2,7 +2,7 @@
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
     --color-accent: #ff3400;
-    --color-headings: #1b0760;
+    --color-headings: #454545;
     --color-body: #918ca4;
     --color-border: #ccc;
     --border-radius: 30px;
@@ -12,26 +12,30 @@
     margin-top: 7rem;
     margin-left: 1rem;
     margin-right: 1rem;
+ 
   }
 
   .testimonial__text h5{
-    color: var(--color-secondary);
+    color: #9333ea;
     font-weight: bold;
+    font-size: 1.6rem;
    
 
   }
   .testimonial__text h2{
     font-weight: bold;
+    font-size: 3rem;
 
   }
   .testimonial__text{
     margin: 7rem 0 !important; 
+    margin-bottom: 3rem !important;
 
   }
 
 .testimonial__header{
     display: inline-flex;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
     max-width: 500px;
     margin: auto;
@@ -40,21 +44,24 @@
     border-radius: 20px;
 }
 .test--avatar img{
-    width: 55px;
-    height: 55px;
+  width: 55px;
+  height: 55px;
     border-radius: 50%;
-    border:2px solid #439468;
+    /* border:2px solid #439468; */
 }
 
 .avatar--names h5{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
-    color: var(--color-secondary);
+    color: #a855f7;
 }
 
 .testimonial__body p{
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
    
+}
+.avatar--names p{
+  font-size: 1.4rem; 
 }
 
 .test-icons{
@@ -67,6 +74,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .testimonial__text h2{
+    font-weight: 900 !important;
+    font-size: 5rem;
+  } 
   .text-exl p{
     font-style: italic;
     font-weight: 100;
@@ -76,10 +87,10 @@
   color: goldenrod;
 }
 .test--avatar img{
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
-  border:3px solid #439468  ;
+  /* border:3px solid #c084fc ; */
 }
 
 }

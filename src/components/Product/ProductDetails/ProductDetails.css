@@ -1,0 +1,126 @@
+.productInfo__card{
+    background: #f9f9f9;
+    padding: 3.2rem 0;
+}
+
+
+.productInfo__image{
+    max-width: 400px;
+    margin: auto;
+}
+
+.productInfo{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.productInfo__content h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.productInfo h2{
+    font-size: 2.5rem;
+    color: #626162!important;
+}
+
+.productInfo__star{
+    font-size: 1.7rem;
+}
+
+.grp-btn-one{
+    font-size: 1.6rem !important;
+    background: #9333ea!important;
+    color: #fff!important;
+    border-color: #9333ea!important;
+    font-weight: 700;
+    padding: 1rem !important;
+}
+.grp-btn{
+    font-size: 1.6rem !important;
+    background: #e8e8ef!important;
+    color: #1f1f1f !important;
+    border-color: #e8e8ef !important;
+    font-weight: 700;
+    padding: 1rem !important;
+}
+.btn-info h4{
+    font-size: 2.5rem;
+    font-weight: bold !important;
+}
+
+.productInfo__grp{
+    background: #f9f9f9;
+
+}
+
+.product__price{
+    color: #9333ea !important;
+}
+
+.product__showcase{
+    background: #f9f9f9;
+}
+.product__showcase h2{
+    color: #626162 !important;
+}
+.product__showcase h3{
+    color: #626162 !important;
+}
+
+.productDetails__badge{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #b26ef2 !important;
+    height: 60px;
+    width: 60px;
+    color: #fff !important;
+    border-radius: 50%;
+}
+.productDetails__badge h5{
+    color: #fff !important;
+}
+
+.product__para{
+    font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+    .product__showcase{
+        margin-top: 5rem  !important;
+    }
+    .productInfo {
+        margin-top: 8rem  !important;
+    }
+    .productInfo h2{
+        font-size: 2.5rem;
+        color: #626162!important;
+    }
+    
+}
+
+.details__none h3{
+    font-size: 2.3rem;
+}
+
+@media screen and (min-width: 992px){ 
+    .productInfo h2{
+        font-size: 3.4rem;
+    }
+    .productInfo h3{
+        font-size: 2.3rem;
+    }
+    .productInfo__grp{
+        background: #f9f9f9;
+        margin-top: 4.5rem !important;
+    }
+    .details__none h3{
+        margin-top: 12rem;
+    }
+    .details__none h3{
+        font-size: 3.3rem;
+    }
+    
+}

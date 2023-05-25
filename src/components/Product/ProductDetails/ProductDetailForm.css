@@ -1,0 +1,22 @@
+.productInfo__form input{
+    height: 38px;
+    width: 50px;
+    font-size: 1.8rem;
+    background: #dddcdc;
+    border: none;
+    outline: 0;
+    padding-left: 1.8rem;
+}
+
+.deals-btn{
+    background: #9333ea !important;
+    border-color: #9333ea !important;
+    font-weight: 500;
+    font-size: 1.7rem !important;
+    transition: 0.3s  ease-in;
+}
+.deals-btn:hover{
+    background: #fff !important;
+    border-color: #9333ea !important;
+    color: #9333ea !important;
+}

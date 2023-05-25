@@ -1,6 +1,7 @@
 import React from "react";
 import "./Feature.css";
 import { ImInsertTemplate, ImLocation2 } from "react-icons/im";
+import { BsArrowRightShort } from "react-icons/bs";
 import {
   Button,
   Row,
@@ -30,7 +31,11 @@ function Feature2() {
               >
                 <div className="feature__icon mb-4">{item.icon}</div>
                 <h3 className="mt-4">{item.title}</h3>
-                <p className="mt-4">{item.desc}</p>
+                <p className="mt-4 mb-4">{item.desc}</p>
+                <a href="" className="feature2__read">
+                  Read More
+                  <BsArrowRightShort />
+                </a>
               </Card>
             </Col>
           );

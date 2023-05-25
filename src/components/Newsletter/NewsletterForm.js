@@ -43,7 +43,7 @@ function NewsletterForm() {
         type="submit"
         className="news-btn"
       >
-        sign up
+        Sign Up
       </button>
       <p>
         {emailIsValid &&

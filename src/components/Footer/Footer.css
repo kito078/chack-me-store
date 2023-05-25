@@ -1,6 +1,6 @@
 :root {
-    --color-primary: #2584ff;
-    --color-secondary: #00d9ff;
+    --color-primary: #9333ea ;
+    --color-secondary:#ff781f;
     --color-accent: #ff3400;
     --color-headings: #1b0760;
     --color-body: #918ca4;
@@ -9,8 +9,8 @@
   }
 
 .footer{
-    background:#232323;
-    color: var(--color-primary);
+    background:#000;
+    color: #9333ea ;
     padding: 3rem 0 !important;
     margin-top: 8rem;
     
@@ -18,10 +18,10 @@
 
 .footer-brand{
   font-size: 3rem;
-  color: var(--color-primary);
+  color: #9333ea ;
 }
 .brand-store{
-    color: var(--color-secondary)
+    color: #9333ea 
 }
 
 .footer__header h5{
@@ -35,6 +35,9 @@
     
 }
 
+.footer-icon svg{
+    color: #9333ea !important;
+}
 
 .footer-icon{
     font-size: 1.7rem;
@@ -59,7 +62,7 @@
 }
 
 .footer__body svg{
-    color: #2584ff !important;
+    color: #9333ea !important;
 }
 .footer__body a{
     color: #555 !important;
@@ -67,3 +70,5 @@
     text-decoration: none;
    
 }
+
+/* #ffd700 */

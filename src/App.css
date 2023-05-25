@@ -51,3 +51,13 @@ body{
   background: #fff !important;
 
 }
+
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.loading img{
+  width: 250px;
+}

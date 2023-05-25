@@ -1,5 +1,7 @@
 import React from "react";
-import Test from "../../images/01.jpg";
+import Test from "../../images/p1.webp";
+import Test2 from "../../images/p2.webp";
+import Test3 from "../../images/p3.webp";
 import "./Testimonial.css";
 import { AiTwotoneStar } from "react-icons/ai";
 import { Button, Row, Col } from "reactstrap";
@@ -7,32 +9,41 @@ import { Button, Row, Col } from "reactstrap";
 const testItems = [
   {
     img: Test,
-    title: "Lorem, ipsum dolor",
-    name: "Lorem, ipsum dolor",
+    title: "Michael Kiger",
+    name: "Web Developer",
     desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illoaccusantium perspiciatis itaque voluptas fugit.",
     icon: <AiTwotoneStar />,
   },
   {
-    img: Test,
-    title: "Lorem, ipsum dolor",
-    name: "Lorem, ipsum dolor",
+    img: Test2,
+    title: "Robert Gregg",
+    name: "Software Developer | England",
     desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illoaccusantium perspiciatis itaque voluptas fugit.",
     icon: <AiTwotoneStar />,
   },
+  // {
+  //   img: Test3,
+  //   title: "Robert Gregg",
+  //   name: "Software Developer | England",
+  //   desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illoaccusantium perspiciatis itaque voluptas fugit.",
+  //   icon: <AiTwotoneStar />,
+  // },
+  // {
+  //   img: Test2,
+  //   title: "Robert Gregg",
+  //   name: "Software Developer | England",
+  //   desc: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illoaccusantium perspiciatis itaque voluptas fugit.",
+  //   icon: <AiTwotoneStar />,
+  // },
 ];
 
 function Testimonial() {
   return (
     <Row className="testimonial ">
-      <div className="testimonial__text text-center my-0                                                                         my-lg-2 py-0 py-lg-5">
-        <h5 className="mb-5">OUR TESTIMONIAL</h5>
-        <h2>WE ELEVATE THE BEAUTY OF YOUR HOME</h2>
-      </div>
-
       {testItems.map((item) => {
         return (
-          <Col lg className="testimonial__header mb-5 mb-lg-0">
-            <div className="testimonial__avatar d-flex align-items-center ">
+          <Col lg className="testimonial__header mb-5 me-lg-5 mb-lg-0">
+            <div className="testimonial__avatar d-flex align-items-center  ms-4">
               <div className="test--avatar">
                 <img src={item.img} alt="" />
               </div>
@@ -41,7 +52,7 @@ function Testimonial() {
                 <p>{item.name}.</p>
               </div>
             </div>
-            <div className="testimonial__body mt-3 ms-2 ms-md-5 ps-2 ps-md-5">
+            <div className="testimonial__body mt-3 ms-2 ms-md ps-2 ps-md-2">
               <p> {item.desc}</p>
               <div className="test-icons d-flex align-items-center ">
                 <span className="test-icon mx-1 mx-md-2">{item.icon}</span>

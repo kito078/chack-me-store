@@ -17,47 +17,49 @@
 }
 .productItem__bage{
     position: absolute;
-    background: coral;
+    background: #c084fc;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
-    width: 40px;
-    height: 40px;
+ 
+    width: 60px;
+    height: 22px;
     color: #fff;
     font-size: 1.1rem;
     font-weight: 600;
-    left: 20px;
+    left: 30px;
     top: 16px;
 }
-.productItem__body p{
-    font-size: 1.4rem;
+.productItem__title {
+    font-size: 1.5rem;
+    color: #9a9a9a !important;
+    font-weight: 100 !important;
 }
 
 .productItem__price{
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 400;
     
 }
 .price__main{
-    color: #252424bd !important;
+    color: #000000!important;
 }
 .price__del{
-    color: #555 !important;
+    color: #9a9a9a!important;
 }
 
 .productItem__star{
     font-size: 1.6rem;
-    color: rgb(210, 186, 52);
+    color: #ffcc00;
 
 }
 
 .productItem__header{
-   background-color: #e7e7e7;
+   /* background-color: #e7e7e7; */
    height: 260px;
 }
 .productItem__header img{
-    width: 230px !important;
+    width: 220px !important;
     margin: auto;
     object-fit: contain !important;
  

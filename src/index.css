@@ -13,7 +13,8 @@ code {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
   --color-accent: #ff3400;
-  --color-headings: #1b0760;
+  --color-headings: #454545;
+  /* --color-headings: #1b0760; */
   --color-body: #918ca4;
   --color-border: #ccc;
   --border-radius: 30px;
@@ -25,8 +26,9 @@ html{
 
 
 p{
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   color: #6f6b80;
+  font-weight: 400 !important;
   
   
 }
@@ -37,5 +39,5 @@ h1,h2,h3,h4,h5,h6{
   font-weight: bold !important;
 }
 h1,h2,h3,h4,h5,h6, p,span{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }

@@ -1,74 +1,71 @@
-import React from "react";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { BsTypeH1 } from "react-icons/bs";
 import { Button, Row, Col } from "reactstrap";
-import { CartContext } from "../../cart-context";
-
+import { Link } from "react-router-dom";
 import "./Cart.css";
 import CartItem from "./CartItem";
+import CartContext from "../../store/cart-context";
 
 function Cart(props) {
-  const cart = useContext(CartContext);
-  //const productQuantity = cart.getProductQuantity(id);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-  const productsCount = cart.items.reduce(
-    (sum, product) => sum + product.quantity,
-    0
-  );
+  const cartCtx = useContext(CartContext);
+
+  const cartList = cartCtx.items.length > 0;
+
+  const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
+
+  const cartItemRemoveHandler = (id) => {
+    cartCtx.removeItem(id);
+  };
+  const cartItemAddHandler = (item) => {
+    cartCtx.addItem(item);
+  };
+
+  const listItems = cartCtx.items.map((item) => (
+    <CartItem
+      id={item.id}
+      key={item.id}
+      name={item.name}
+      title={item.title}
+      price={item.price}
+      desc={item.description}
+      img={item.img}
+      amount={item.amount}
+      onRemove={cartItemRemoveHandler.bind(null, item.id)}
+      onAdd={cartItemAddHandler.bind(null, item)}
+    />
+  ));
 
   return (
-    <div className="cart">
-      <div className="backdrop" onClick={props.onClose}></div>
-      <div className="modal-one cart__header text-center pt-5">
-        <ul className="cart__list">
-          {productsCount > 0 ? (
-            <>
-              {cart.items.map((currentProduct, idx) => (
-                <CartItem
-                  key={idx}
-                  id={currentProduct.id}
-                  quantity={currentProduct.quantity}
-                ></CartItem>
-              ))}
-              <h1>Total: {cart.getTotalCost().toFixed(2)}</h1>
-              <Button className="news-btn" variant="success">
-                Order Now!
-              </Button>
-            </>
-          ) : (
-            <h1>There are no items in your cart!</h1>
-          )}
-        </ul>
-        {/* <Row className="d-flex">
-          <Col>
-            <h3 className="cart-price">4353</h3>
-          </Col>
-          <Col>
-            <h3>Total Amount</h3>
-          </Col>
-        </Row> */}
-        {/* <Row>
-          <Col></Col>
-          <Col>
-            <div className="d-flex justify-content-end">
-              <Button
-                onClick={props.onClose}
-                className="btn-button rounded-pill px-5 py-2"
-                color="primary"
-              >
-                close
-              </Button>
+    <div>
+      {cartList && (
+        <div className="cart container">
+          {listItems}
+          <div className="cart__body d-flex justify-content-between justify-content-center">
+            <h3 className="my-5 ms-4">{totalAmount}</h3>
+            <Button className="order-btn my-4 me-3" color="primary">
+              Order Now
+            </Button>
+          </div>
+        </div>
+      )}
 
-              <Button
-                className="btn-button rounded-pill px-5 py-2"
-                color="primary"
-              >
-                Order
-              </Button>
-            </div>
-          </Col>
-        </Row> */}
-      </div>
+      {!cartList && (
+        <div className="details__none text-center mx-3 ">
+          <h3 className="mb-5">Check Out Our Best Offers</h3>
+          <Link to="/">
+            <Button
+              className="btn-button rounded-pill px-5 py-2 mb-5 mb-lg-0"
+              color="primary"
+            >
+              Back to Home
+            </Button>
+          </Link>
+        </div>
+      )}
     </div>
   );
 }

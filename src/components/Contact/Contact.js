@@ -15,7 +15,7 @@ const contactItems = [
   {
     icon: <MdEmail />,
     title: "Email",
-    desc: "kabamechack@gmail.com",
+    desc: "kitokessian@gmail.com",
   },
   {
     icon: <BsFillTelephoneFill />,

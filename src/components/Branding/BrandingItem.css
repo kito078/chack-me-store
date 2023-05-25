@@ -22,7 +22,7 @@
 
 .brand-page{
     position: absolute;
-    background-color: var(--color-secondary);
+    background-color: #c084fc;
     width: 90px;
     height: 10px ;
     color: #fff;
@@ -55,7 +55,7 @@
 }
 
 .brandingItem__body h3{
-    color: var(--color-secondary);
+    color: #a855f7;
     font-weight: 500;
     margin-top: 1.7rem;
     font-size: 1.4rem;

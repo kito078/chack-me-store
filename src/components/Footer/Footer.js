@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { ImLinkedin2 } from "react-icons/im";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { FaCanadianMapleLeaf } from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { ImLocation2 } from "react-icons/im";
@@ -19,9 +19,9 @@ function Footer() {
           <Col lg className="footer__header ">
             <h5 className="mb-4 d-flex">
               <span className="footer-brand me-1 ">
-                <BsFillMoonStarsFill />
+                <FaCanadianMapleLeaf />
               </span>
-              <span className="brand-chake mt-3">Chake</span>
+              <span className="brand-chake mt-3">Shop</span>
               <span className="brand-store mt-3">Store</span>
             </h5>
             <p className="ms-3 text-start">

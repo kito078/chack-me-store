@@ -1,6 +1,6 @@
 import React from "react";
 import "./Easy.css";
-import All from "../../images/doctor2.jpg";
+import All from "../../images/y2.jpg";
 import { Button, Row, Col } from "reactstrap";
 import { BsFillBellSlashFill } from "react-icons/bs";
 
@@ -9,14 +9,9 @@ function Easy() {
     <div className="easy mt-5 pt-3 pt-lg-3">
       <div className="container">
         <Row className="easy__section align-items-center justify-items-center mt-5 mt-lg-0  ms-2 ms-lg-0">
-          <Col md className="easy__body">
-            <h3>Join Now and Earn 5% On Every Order</h3>
-            <div className="d-flex  ">
-              <span className="mt-4">$350.000 </span>
-              <span className="mt-4 ms-4">
-                <del>$405.454</del>
-              </span>
-            </div>
+          <Col md className="easy__body text-center">
+            <h3 className="easy_veg mb-4 pb-1">Freshness Home Vegetabbles</h3>
+            <h3>Now get up to 50% off</h3>
             <Row></Row>
             <Button className="news-btn my-4 mt-5 " color="primary">
               Buy Now
