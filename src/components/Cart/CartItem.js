@@ -38,7 +38,7 @@ function CartItem(props) {
                 <AiTwotoneStar />
                 <AiTwotoneStar />
               </h5>
-              <div className="cartItem__body">
+              <div className="cartItem__body d-flex">
                 <button
                   onClick={props.onRemove}
                   className="delete-btn mt-4 px-4 me-4"
@@ -53,7 +53,7 @@ function CartItem(props) {
           </div>
         </div>
 
-        <div>
+        <div className="d-flex">
           <h5 className="me-5">X {props.amount}</h5>
         </div>
       </div>

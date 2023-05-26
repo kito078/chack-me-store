@@ -21,8 +21,8 @@ html{
   padding: 0 1rem;
   z-index: 999;
   transition: all 0.3s ease-in-out;
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+  /* padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important; */
 }
 
 
@@ -69,21 +69,25 @@ html{
  font-size: 50px !important;
   margin: auto;
   margin-bottom: 0.4rem !important;
-  color: #f14141 !important;
-  
- 
+  color: #9333ea !important;
+
 }
 
 .brand-name {
   text-decoration: none;
  list-style: none;
-  font-size: 2rem !important;
- 
+  /* font-size: 2rem !important; */
+
 }
+
 .brand-name h5 {
   text-decoration: none;
  list-style: none;
   font-size: 2rem !important;
+  /* margin-bottom: 2rem !important; */
+}
+.footer-brand SVG{
+  /* margin-bottom:  2.5rem; */
 }
 
 .rebate-one{
@@ -162,14 +166,14 @@ html{
 
 @media (max-width: 768px) {
   .navbar {
-   padding-top: 1rem !important;
-   padding-bottom: 1rem !important;
+   padding-top: 1.5rem !important;
+   padding-bottom: 1.5rem !important;
   
   }
-  /* .icon-nav{
-    margin-right: 2rem !important;
+  .footer-brand SVG{
+    margin-bottom: 0 !important;
+    display: none !important;
   }
-  */
   .brand img {
      
       max-width: 150px;
@@ -190,7 +194,7 @@ html{
     }
   
   .toggler {
-    background: var(--color-primary);
+    background: #a95bf2;
     width: 47px;
     height: 47px;
     border-radius: 100%;

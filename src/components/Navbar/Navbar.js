@@ -42,7 +42,7 @@ function Navbar() {
           <div className="ms-4  ms-lg-5 ps-lg-5">
             <a href="/" className="brand-name ms-5 ms-md-2">
               <h5 className=" d-flex">
-                <span className="footer-brand  me-1">
+                <span className="footer-brand  me-1 d-md-none">
                   <FaCanadianMapleLeaf />
                 </span>
                 <span className="brand-chake ">Shop</span>

@@ -1,9 +1,9 @@
 .cartItem{
-    height: 200px;
+    height: 150px;
 }
 
 .cartItem__header img{
-    max-width: 250px;
+    max-width: 120px;
  
 }
 
