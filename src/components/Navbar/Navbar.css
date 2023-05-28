@@ -21,8 +21,8 @@ html{
   padding: 0 1rem;
   z-index: 999;
   transition: all 0.3s ease-in-out;
-  /* padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important; */
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 
@@ -76,7 +76,7 @@ html{
 .brand-name {
   text-decoration: none;
  list-style: none;
-  /* font-size: 2rem !important; */
+  font-size: 2rem !important;
 
 }
 
@@ -87,7 +87,7 @@ html{
   /* margin-bottom: 2rem !important; */
 }
 .footer-brand SVG{
-  /* margin-bottom:  2.5rem; */
+  margin-bottom:  2.5rem !important;
 }
 
 .rebate-one{
@@ -166,8 +166,8 @@ html{
 
 @media (max-width: 768px) {
   .navbar {
-   padding-top: 1.5rem !important;
-   padding-bottom: 1.5rem !important;
+   /* padding-top: 1.5rem !important;
+   padding-bottom: 1.5rem !important; */
   
   }
   .footer-brand SVG{

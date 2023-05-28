@@ -45,7 +45,7 @@ function Navbar() {
                 <span className="footer-brand  me-1 d-md-none">
                   <FaCanadianMapleLeaf />
                 </span>
-                <span className="brand-chake ">Shop</span>
+                <span className="brand-chake mb-5 mb-md-2">Shop</span>
                 <span className="brand-store ">Store</span>
               </h5>
             </a>
